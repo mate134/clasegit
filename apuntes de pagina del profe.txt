@@ -1,0 +1,25 @@
+@media (max-width: 700px) {/* Para mobile */
+    #inicio {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        background-position-x: 0;
+    }
+}
+@media (max-width: 768px) {/* Para tablet */
+    #inicio {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: -100px;
+        background-position-x: 0;
+    }
+}
+@media (max-width: 1200px) {/* Para monitores mas grandes */
+    #inicio {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: -180px;
+        background-position-x: 0;
+    }
+}
+ 

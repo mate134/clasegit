@@ -1,0 +1,96 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #e20000;
+}
+
+p {
+    color: #6a6a6a;
+}
+
+#proyectos {
+    background-image: url("../images/fondo-proyecto.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#proyectos main {
+    height: 83vh;
+}
+
+nav .nav-link {
+    color: #282828;
+}
+
+nav .active {
+    border: 1px solid #e20000;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: 100;
+}
+
+#proyectos footer, #proyectos footer a{
+    color: #e20000;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+#proyectos footer .fa-whatsapp {
+    color: white;
+    background-color: #370A6D;
+    font-size: 30px;
+    padding: 10px 19px;
+    border-radius: 10px 10px 0 0;
+    height: 65px;
+    width: 65px;
+}
+
+#proyectos footer .fa-github {
+    font-size: 30px;
+    color:#e20000;
+}
+
+#proyectos footer .fa-linkedin-in {
+    color: white;
+    background-color: #e20000;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+.btn {
+    background-color: #ffffff;
+    color: #370A6d;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 5px 35px;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #370A6D;
+}
+
+.btn-pdf {
+    background-color: #e20000;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.btn-pdf:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+    background-color: #370a6d;
+}
