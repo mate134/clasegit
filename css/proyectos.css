@@ -2,8 +2,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
+.titulo {
     color: #e20000;
+    margin-top: 52px;
 }
 
 p {
@@ -94,3 +95,15 @@ nav .active {
     color: #FFFFFF;
     background-color: #370a6d;
 }
+
+.color-gradiente {
+    background: rgba(248,80,50,1);
+background: -moz-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(246,41,12,1) 40%, rgba(240,47,23,1) 40%, rgba(231,56,39,1) 65%, rgba(214,52,30,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,80,50,1)), color-stop(40%, rgba(246,41,12,1)), color-stop(40%, rgba(240,47,23,1)), color-stop(65%, rgba(231,56,39,1)), color-stop(100%, rgba(214,52,30,1)));
+background: -webkit-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(246,41,12,1) 40%, rgba(240,47,23,1) 40%, rgba(231,56,39,1) 65%, rgba(214,52,30,1) 100%);
+background: -o-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(246,41,12,1) 40%, rgba(240,47,23,1) 40%, rgba(231,56,39,1) 65%, rgba(214,52,30,1) 100%);
+background: -ms-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(246,41,12,1) 40%, rgba(240,47,23,1) 40%, rgba(231,56,39,1) 65%, rgba(214,52,30,1) 100%);
+background: linear-gradient(to right, rgba(248,80,50,1) 0%, rgba(246,41,12,1) 40%, rgba(240,47,23,1) 40%, rgba(231,56,39,1) 65%, rgba(214,52,30,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#d6341e', GradientType=1 ;
+}
+
